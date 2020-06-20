@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: WebPortal API
-Bundle-SymbolicName: co.icreated.portal.api;singleton:=true
+Bundle-Name: KBS Plugin : ICreated WebPortal API
+Bundle-SymbolicName: com.kylinsystems.kbs.plugins.icreated.portal.api;singleton:=true
 Bundle-Version: 7.1.0.qualifier
-Bundle-Vendor: ICreated
-Bundle-Activator: co.icreated.portal.api.Activator
+Bundle-Vendor: KBS
+Bundle-Activator: org.icreated.portal.api.Activator
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .,
  WEB-INF/classes/,
@@ -30,7 +30,7 @@ Bundle-ClassPath: .,
  WEB-INF/lib/org.apache.servicemix.bundles.spring-jdbc.jar,
  WEB-INF/lib/spring-dao.jar,
  WEB-INF/lib/spring-tx.jar
-Automatic-Module-Name: co.icreated.portal.api
+Automatic-Module-Name: com.kylinsystems.kbs.plugins.icreated.portal.api
 Comment: Bundle-RequiredExecutionEnvironment: JavaSE-11
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=1.11))"
 Require-Bundle: org.adempiere.base;bundle-version="7.1.0",
@@ -84,7 +84,7 @@ Import-Package: com.fasterxml.jackson.annotation,
  org.osgi.framework,
  org.slf4j;version="1.7.25"
 Web-ContextPath: portal
-Export-Package: co.icreated.portal.api;version="7.1.0",
- co.icreated.portal.bean;version="7.1.0",
- co.icreated.portal.controller;version="7.1.0",
- co.icreated.portal.service;version="7.1.0"
+Export-Package: org.icreated.portal.api;version="7.1.0",
+ org.icreated.portal.bean;version="7.1.0",
+ org.icreated.portal.controller;version="7.1.0",
+ org.icreated.portal.service;version="7.1.0"
